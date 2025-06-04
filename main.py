@@ -10,8 +10,8 @@ from dotenv import load_dotenv
 
 # Load API keys securely
 load_dotenv()
-OPENAI_API_KEY = os.getenv("AIzaSyA9QJUpgs9gGVXubwUDBTRnf9j3ILlhEYk")
-NEWSAPI_KEY = os.getenv("c7d507628f2440a0bf93c10acbf47b87")
+OPENAI_API_KEY = os.getenv("YOUR API KEY")
+NEWSAPI_KEY = os.getenv("NEWS API KEY")
 
 # Initialize OpenAI client
 client = OpenAI(api_key=OPENAI_API_KEY)
