@@ -99,7 +99,7 @@ import platform
 
 # Dictionary of app names and their paths (edit based on your system)
 APP_PATHS = {
-    "chrome": r"C:\Users\Gaurav Kumar\Desktop\Gaurav",
+    "chrome": r"C:\Users\YOUR USERNAME\Desktop\",
     "notepad": r"C:\Windows",
     "vscode": r"C:\Users\<YOUR_USERNAME>\AppData\Local\Programs\Microsoft VS Code\Code.exe",
     "calculator": "calc",  
