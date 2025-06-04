@@ -49,7 +49,7 @@ def speak(text):
 
 def aiProcess(command):
     try:
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=AIzaSyC8uDZ3oUd5zBBxccvDZldd-SDKLmJohH0"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=YOUR API KEY"
         headers = {"Content-Type": "application/json"}
         payload = {
             "contents": [{
